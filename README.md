@@ -1,8 +1,9 @@
-Simple RestEasy JAX-RS 2.0 Server
-====================================
+Simple RestEasy JAX-RS 2.0 Server with a sample Servlet Filter 
+=======================================================================
 
-RestEasy 3.0.16 example Application.
-Used to test https://issues.jboss.org/browse/RESTEASY-851
+- RestEasy 3.0.16 Restful web service.
+- ServletFilter that hooks into the servlet execution.
+- Used to test https://issues.jboss.org/browse/RESTEASY-851
 
 Simple JAX-RS 2.0 Server and Client that exchanges JSON documents.
 Added a ServletFilter and verify if unchecked/unmapped exceptions flow back through the servlet filter. 
@@ -26,3 +27,7 @@ Steps:
 
 To verify RESTEASY-851
 # http://localhost:9095/customers/exception
+
+
+
+>>>>>>> 824fa63a6dd05d808db4e373f5ceca64db8f6ed4
