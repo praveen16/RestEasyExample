@@ -12,8 +12,8 @@ Instructions to SetUp and Run this project
 ==========================================
 Assumptions:
 --------------
-# Maven is setup on your environment
-# You are familiar with using GIT and GITHub
+- Maven is setup on your environment
+- You are familiar with using GIT and GITHub
 
 --------
 Steps:
@@ -22,12 +22,8 @@ Steps:
 - build using command ->  mvn -U clean install
 - run application using command -> mvn jetty:run
 - Verify in Browser with api endpoints
-# http://localhost:9095/customers
-# http://localhost:9095/customers/1
+-- http://localhost:9095/customers
+-- http://localhost:9095/customers/1
 
 To verify RESTEASY-851
-# http://localhost:9095/customers/exception
-
-
-
->>>>>>> 824fa63a6dd05d808db4e373f5ceca64db8f6ed4
+-- http://localhost:9095/customers/exception
