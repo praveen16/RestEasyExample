@@ -21,9 +21,10 @@ Steps:
 - Fork/Clone project
 - build using command ->  mvn -U clean install
 - run application using command -> mvn jetty:run
+
 - Verify in Browser with api endpoints
--- http://localhost:9095/customers
--- http://localhost:9095/customers/1
+ -- http://localhost:9095/customers 
+ -- http://localhost:9095/customers/1
 
 To verify RESTEASY-851
--- http://localhost:9095/customers/exception
+ -- http://localhost:9095/customers/exception
